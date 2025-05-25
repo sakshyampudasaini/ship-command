@@ -21,6 +21,7 @@ stop = stops the ship
 quit = the game quits
 """)
     elif command == "quit":
+        print("Play again next time")
         break
     else:
         print(f"Sorry, but I didn't get you.")
